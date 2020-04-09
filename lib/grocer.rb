@@ -3,15 +3,15 @@ def find_item_by_name_in_collection(name, collection)
   # Implement me first!
   #
   # Consult README for inputs and outputs
-  binding.pry
-  collection.each do |item|
-  binding.pry
-    if name == [:item]
-      return [:item]
-    binding.pry
+  collection.each do |list|
+    # binding.pry
+    if name == list[:item]
+      # binding.pry
+      return list
+      # binding.pry
     end
   end
-  binding.pry
+  nil
 end
 
 def consolidate_cart(cart)
@@ -19,5 +19,9 @@ def consolidate_cart(cart)
   #
   # REMEMBER: This returns a new Array that represents the cart. Don't merely
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
+  checkout_cart = []
+  cart.each do |cart_item|
+    item_info = cart_item[:item]
+    if cart_item[:item] == def find_item_by_name_in_collection (cart_item[:item], cart)
 
-end
+    end
