@@ -23,5 +23,5 @@ def consolidate_cart(cart)
   cart.each do |cart_item|
     item_name = cart_item[:item]
     if def find_item_by_name_in_collection (cart_item[:item], checkout_cart)
-      
+
     end
