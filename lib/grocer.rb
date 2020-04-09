@@ -22,7 +22,7 @@ def consolidate_cart(cart)
   checkout_cart = []
   cart.each do |cart_item|
     item_name = cart_item[:item]
-    item_info = find_item_by_name_in_collection (item_name, checkout_cart)
+    item_info = find_item_by_name_in_collection(item_name, checkout_cart)
     if item_info
       item_info[:count] += 1
     else
