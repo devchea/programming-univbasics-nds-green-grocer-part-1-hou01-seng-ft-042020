@@ -21,6 +21,7 @@ def consolidate_cart(cart)
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
   checkout_cart = []
   cart.each do |cart_item|
-    if item_info == def find_item_by_name_in_collection (cart_item[:item], checkout_cart)
-
+    item_name = cart_item[:item]
+    if def find_item_by_name_in_collection (cart_item[:item], checkout_cart)
+      
     end
